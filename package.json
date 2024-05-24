@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khloptsevps/gendiff-hr.git"
+    "url": "git+https://github.com/uvrdem1/frontend-project-46"
   },
   "keywords": [
     "khloptsev",
@@ -28,9 +28,9 @@
   "author": "khlotsevps",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/khloptsevps/gendiff-hr/issues"
+    "url": "https://github.com/uvrdem1/frontend-project-46/issues"
   },
-  "homepage": "https://github.com/khloptsevps/gendiff-hr#readme",
+  "homepage": "https://github.com/uvrdem1/frontend-project-46#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
