@@ -1,8 +1,5 @@
 # project-gendiff
 
-[![Build Status](https://travis-ci.org/UsmanAAV/project-lvl2-s225.svg?branch=master)](https://travis-ci.org/UsmanAAV/project-lvl2-s225) [![Maintainability](https://api.codeclimate.com/v1/badges/e854b4e74661dc02b662/maintainability)](https://codeclimate.com/github/UsmanAAV/project-lvl2-s225/maintainability)
-
-#project-lvl2-s225
 ## Проект 'Вычислитель отличий'
 
 Это приложение, реализованное в рамках второго проекта при изучении профессии Javascript-разработчика на [hexlet.io](https://ru.hexlet.io/?ref=155709). Ссылка на проект - [Вычислитель отличий](https://ru.hexlet.io/projects/3/sessions/225?ref=155709)
