@@ -1,6 +1,4 @@
-# project-gendiff
-
-## Проект 'Вычислитель отличий'
+## frontend-project-46 
 
 Это приложение, реализованное в рамках второго проекта при изучении профессии Javascript-разработчика на [hexlet.io](https://ru.hexlet.io/?ref=155709). Ссылка на проект - [Вычислитель отличий](https://ru.hexlet.io/projects/46/members/39377/settings)
 
