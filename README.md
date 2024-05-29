@@ -44,4 +44,3 @@ Options:
   -V, --version        output the version number
   -f, --format [type]  Output format (default: "stylish")
   -h, --help           output usage information
-```

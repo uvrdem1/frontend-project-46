@@ -1,20 +1,20 @@
 install:
-	npm install
+	npm ci
 
-build:
-	rm -rf dist
-	npm run build
+gendiff:
+	node/gendiff.js
 
 publish:
 	npm publish --dry-run
 
+run:
+	node gendiff ./__fixtures__/filepath1.json ./__fixtures__/filepath2.json
+
+test:
+	npm test 
+
 lint:
 	npx eslint .
 
-test:
-	npm test
-
-test-coverage:
-	npm test -- --coverage
-
-.PHONY: test
+lint-fix:
+	npx eslint . --fix

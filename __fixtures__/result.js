@@ -1,24 +1,21 @@
-{
-    host: hexlet.io
-  - timeout: 50
-  + timeout: 20
-  - proxy: 123.234.234.123
-  - follow: false
+const result = `{
     common: {
+      + follow: false
         setting1: Value 1
       - setting2: 200
       - setting3: true
-      + setting3: {
-            key: value
-        }
-        setting6: {
-            key: value
-          + ops: vops
-        }
-      + follow: false
+      + setting3: null
       + setting4: blah blah
       + setting5: {
             key5: value5
+        }
+        setting6: {
+            doge: {
+              - wow: 
+              + wow: so much
+            }
+            key: value
+          + ops: vops
         }
     }
     group1: {
@@ -32,9 +29,18 @@
     }
   - group2: {
         abc: 12345
+        deep: {
+            id: 45
+        }
     }
-  + verbose: true
   + group3: {
+        deep: {
+            id: {
+                number: 45
+            }
+        }
         fee: 100500
     }
-}
+}`;
+
+export default result;
